@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none !important;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-rendering: optimizeLegibility;
+    /*font-size: 14px;*/
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+:active,
+:hover,
+:focus{
+outline: 0 !important;
+outline-offset: 0;
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+}
+section{
+    padding: 8rem 0;
+}
+
+/*global end */
+
+/*typography*/
+h1{
+ font-size: 5.5rem; 
+ margin-bottom: 1.5rem;
+ color: #333;
+ font-weight: 700;
+}
+h2{
+    font-size: 4.5rem;
+    line-height: 5.5rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-weight: 700;
+}
+h3{
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+    color: #333;   
+    font-weight: 700;
+}
+h4{
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    margin-bottom: 1rem;
+    color: #3b8df3;  
+}
+p {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    margin-bottom: 1rem;
+    color: #292929;
+    
+}
+/*typography end*/
+
+/*header*/
+header{
+    background-color: #DBF4FE;
+}
+.nav-link {
+color: #000000;
+font-family: 'Montserrat', sans-serif;
+font-size: 1.5rem;
+font-weight: 500;
+padding: 1.5rem 3rem !important;
+}
+.nav-link:focus, .nav-link:hover, .nav-link:active {
+    color: #C0A5EE;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-toggler-icon{
+    height: auto;
+}
+/*header end*/
+
+/*banner*/
+
+#banner-part{
+    background-color: #DBF4FE;
+}
+
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-text h1{
+    font-size: 3.1rem;
+    line-height:  4.1rem!important;
+}
+/*banner end*/
+
+/*Services*/
+#Services, #clientsays{
+    background-color: #ffff;
+}
+.title-text{
+    text-align: center;
+    margin-bottom: 5rem
+}
+
+.title-text h2{
+    font-size: 4.5rem;
+    line-height:  5.1rem!important;    
+   
+}
+.title-text p, .service2_details p {
+    color: #3b8df3;
+    font-size: 1.5rem;
+}
+
+.box-module{
+    border: solid 1px #dbf4ef;
+    padding: 1.5rem;
+    text-align: center;
+    min-height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box-module h3{
+    padding: 3rem 0;
+}
+.arrow-explore{
+  padding-top: 3.5rem;  
+}
+.box-module i{
+    font-size: 45px !important;
+    color: #3b8df3 !important;
+}
+
+.arrow-explore, .arrow-explore i{
+    font-size: 1.5rem!important;
+    color: #3b8df3 !important;
+}
+
+/*services2 start*/
+#services2{
+    background-color: #f4fcff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*
+testimonial-card*/
+.testimonial-card{
+    border: solid 2px #dbf4ef;
+    padding: 2rem;
+    position: relative;
+}
+.testimonial-row{ 
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.quoto-left{
+    
+    font-size: 48px;
+    top:1rem;
+    left: 2rem;
+    color: #dbf4ef;
+    position: absolute;
+}
+
+ .quoto-right{
+    
+    font-size: 48px;
+    right:1rem;
+    bottom: 2rem;
+    color: #dbf4ef;
+    position: absolute;
+
+}
+
+.profile-img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 48%;
+    overflow: hidden;
+}
+.testimonial-content {
+    padding: 0 3rem;
+}
+.star i{
+    color: #ffba00;
+    margin-bottom: 2rem;
+}
+.testimonila-txt{
+    font-style: italic;
+}
+.sign span{
+    display: block;
+    font-size: 1.3rem;
+}
+.sign span:first-child{
+font-weight: bold;
+}
+footer{
+    background-color: #2b333e;
+}
+.footer-top{
+    padding: 8rem 0;
+}
+.footer-info{
+    padding:  3rem 0;
+    border-top: solid 1px #555c65;
+}
+.copyright{
+    color: #929599 !important ;
+    margin-bottom: 1.5rem;
+    font-weight: normal !important;
+}
+.info-heading{
+    font-weight: 500;
+    margin-bottom: 2.5rem;
+    
+}
+.footer-top p{
+    color: #fff;
+    font-weight: 500;
+}
+.footer-list li{
+    display: block;
+}
+.footer-list li a{
+    color: #fff;
+    color: #929599 !important ;
+    margin-bottom: 0px;
+    font-weight: normal !important;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+.social-media li{
+    display: inline-block;
+    margin-right: 1.5rem;
+}
+.social-media a {
+    font-size: 1.5rem;
+    color: #fff;
+    border: solid 1px #fff;
+    border-radius: 50%;
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+
+}
+
+
+
+
+/*
+media query*/
+
+
+
+
